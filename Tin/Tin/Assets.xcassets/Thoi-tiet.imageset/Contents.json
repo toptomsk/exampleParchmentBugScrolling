@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Thoi-tiet.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

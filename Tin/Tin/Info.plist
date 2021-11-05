@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Tin Mới</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Tin Mới 24H</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb695516117711478</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.newsapp.tinhay24h</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.932115870207-9ea2s9v5vcltlvips9unag1q6fdht3rt</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAdvertiserIDCollectionEnabled</key>
+	<true/>
+	<key>FacebookAppID</key>
+	<string>695516117711478</string>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<true/>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-9900137687416646~7633920899</string>
+	<key>GADIsAdManagerApp</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbauth2</string>
+		<string>fb-messenger-share-api</string>
+		<string>fb-messenger-api</string>
+		<string>fbapi</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Cho phép ứng dụng sử dụng bluetooth?</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Cho phép ứng dụng sử dụng bluetooth?</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Mở quyền truy cập Máy ảnh để cho phép đăng tải hình ảnh lên từ thiết bị của bạn.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Lưu ảnh vào photo library?</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Lưu ảnh vào photo library?</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>"Cho phép theo dõi" giúp bạn đọc được tin tức cá nhân hóa tốt hơn.</string>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SF-UI-Text-LightItalic.ttf</string>
+		<string>SF-UI-Text-Italic.ttf</string>
+		<string>SF-UI-Text-SemiboldItalic.ttf</string>
+		<string>SF-UI-Text-Bold.ttf</string>
+		<string>SFUIText-Medium.ttf</string>
+		<string>SFUIText-MediumItalic.ttf</string>
+		<string>SF-UI-Display-Bold.ttf</string>
+		<string>SF-UI-Display-Medium.ttf</string>
+		<string>SF-UI-Display-Light.ttf</string>
+		<string>SF-UI-Text-Regular.ttf</string>
+		<string>SF-UI-Text-Semibold.ttf</string>
+		<string>SF-UI-Display-Semibold.ttf</string>
+		<string>SF-UI-Display-Regular.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+	</array>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+</dict>
+</plist>

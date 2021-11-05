@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  Tin
+
+  Created by vietnb on 12/15/19.
+  Copyright © 2019 vietnb. All rights reserved.
+*/
+
+"BlueMessage" = "ABCDEF dien het ca nguoi";
+"Tin tức" = "Tin tức";
+"Video" = "Video";
+"Khám phá" = "Khám phá";
+"Cá nhân" = "Cá nhân";
+"Tìm kiếm" = "Tìm kiếm";
+
+"phút trước" = "phút trước";
+"giờ trước" = "giờ trước";
+
+"Chia sẻ qua facebook" = "Chia sẻ qua facebook";
+"Chia sẻ qua Facebook message" = "Chia sẻ qua Facebook message";
+"Chia sẻ qua Tin nhắn" = "Chia sẻ qua Tin nhắn";
+"Chia sẻ qua mail" = "Chia sẻ qua mail";
+"Sao chép link" = "Sao chép link";
+"Đóng" = "Đóng";
+
+"Đã sao chép link" = "Đã sao chép link";
+"Bạn chưa cài đặt Facebook message" = "Bạn chưa cài đặt Facebook message";
+"Bỏ đánh dấu bài này" = "Bỏ đánh dấu bài này";
+
+"Nhập bình luận" = "Nhập bình luận";
+"Bình luận" = "Bình luận";
+"Gửi đi" = "Gửi đi";
+"Bình luận phải dùng tiếng việt có dấu." = "Bình luận phải dùng tiếng việt có dấu.";
+
+"NỔI BẬT" = "NỔI BẬT";
+"MỚI NHẤT" = "MỚI NHẤT";
+"Không có bình luận nào" = "Không có bình luận nào";
+
+"Cỡ chữ" = "Cỡ chữ";
+"Nhỏ" = "Nhỏ";
+"Trung bình" = "Trung bình";
+"Lớn" = "Lớn";
+"Độ sáng" = "Độ sáng";
+"Phản hồi nội dung" = "Phản hồi nội dung";
+
+"Báo cáo vi phạm" = "Báo cáo vi phạm";
+"Bài sai chính tả" = "Bài sai chính tả";
+"Phản cảm" = "Phản cảm";
+"Bạo lực" = "Bạo lực";
+"Xuyên tạc" = "Xuyên tạc";
+
+"Nhập tên báo cần tìm" = "Nhập tên báo cần tìm";
+"Tiện ích hay" = "Tiện ích hay";
+"Thời tiết" = "Thời tiết";
+"Xổ số" = "Xổ số";
+"Tỷ giá" = "Tỷ giá";
+"Đổi ngày" = "Đổi ngày";
+"Chọn ngày tốt" = "Chọn ngày tốt";
+"Tử vi" = "Tử vi";
+
+"Báo hay đọc" = "Báo hay đọc";
+"Báo đề xuất" = "Báo đề xuất";
+"Báo tài chính - kinh doanh" = "Báo tài chính - kinh doanh";
+"Báo thể thao" = "Báo thể thao";
+"Các báo khác" = "Các báo khác";
+
+"Xem hết" = "Xem hết";
+"Thu gọn" = "Thu gọn";

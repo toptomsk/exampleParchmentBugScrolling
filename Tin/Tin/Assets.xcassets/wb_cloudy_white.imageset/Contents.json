@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "wb_cloudy_white.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

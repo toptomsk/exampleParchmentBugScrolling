@@ -1,0 +1,21 @@
+PODS:
+  - Parchment (3.1.0)
+
+DEPENDENCIES:
+  - Parchment (from `https://github.com/toptomsk/Parchment.git`)
+
+EXTERNAL SOURCES:
+  Parchment:
+    :git: https://github.com/toptomsk/Parchment.git
+
+CHECKOUT OPTIONS:
+  Parchment:
+    :commit: 8f474b4f1792b57811842bfa971a9a58c40d7bf6
+    :git: https://github.com/toptomsk/Parchment.git
+
+SPEC CHECKSUMS:
+  Parchment: 6250722ed0456d68f6bae03118eda722a28486f3
+
+PODFILE CHECKSUM: 56f65a24228069a23eadec9b51e124bb5c6c7065
+
+COCOAPODS: 1.11.2

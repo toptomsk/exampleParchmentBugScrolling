@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "circle_themeColor.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

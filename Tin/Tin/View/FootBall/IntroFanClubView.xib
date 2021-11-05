@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="IntroFanClubView" customModule="Tin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcS-C3-ljX">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain"/>
+                    <connections>
+                        <action selector="actionButtonWithBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="icJ-Po-kpF"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVQ-8z-zTf">
+                    <rect key="frame" x="165.5" y="146" width="83" height="8"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="8" id="fRZ-rx-nO0"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XL1-oj-FEg" userLabel="ContainerView">
+                    <rect key="frame" x="0.0" y="162" width="414" height="700"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmM-ax-TMC">
+                            <rect key="frame" x="16" y="612" width="382" height="44"/>
+                            <color key="backgroundColor" red="0.97254901960784312" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="evW-ZL-tk2"/>
+                            </constraints>
+                            <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Tham gia Club">
+                                <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="16"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="actionButtonWithBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="Nab-6S-oRc"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="MmM-ax-TMC" secondAttribute="bottom" constant="44" id="4kK-3q-R2l"/>
+                        <constraint firstAttribute="trailing" secondItem="MmM-ax-TMC" secondAttribute="trailing" constant="16" id="RZf-nx-12e"/>
+                        <constraint firstAttribute="height" constant="700" id="dYL-lL-JZM"/>
+                        <constraint firstItem="MmM-ax-TMC" firstAttribute="leading" secondItem="XL1-oj-FEg" secondAttribute="leading" constant="16" id="fkA-oy-ylm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ZVQ-8z-zTf" firstAttribute="width" secondItem="XL1-oj-FEg" secondAttribute="width" multiplier="1/5" id="M2I-rX-eBu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="XL1-oj-FEg" secondAttribute="bottom" id="MBP-ST-sBa"/>
+                <constraint firstItem="ZVQ-8z-zTf" firstAttribute="centerX" secondItem="XL1-oj-FEg" secondAttribute="centerX" id="T3X-rD-aZ2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="XL1-oj-FEg" secondAttribute="trailing" id="ZDQ-b4-wCh"/>
+                <constraint firstAttribute="bottom" secondItem="BcS-C3-ljX" secondAttribute="bottom" id="aQ3-4r-Xan"/>
+                <constraint firstItem="BcS-C3-ljX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="fRS-KZ-mdO"/>
+                <constraint firstItem="XL1-oj-FEg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="k5J-6Q-QNN"/>
+                <constraint firstItem="XL1-oj-FEg" firstAttribute="top" secondItem="ZVQ-8z-zTf" secondAttribute="bottom" constant="8" id="r0l-gc-Ddo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="BcS-C3-ljX" secondAttribute="trailing" id="uck-PE-Px4"/>
+                <constraint firstItem="BcS-C3-ljX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xil-jq-ZNI"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomInteract" destination="MBP-ST-sBa" id="4Gz-iG-HwY"/>
+                <outlet property="btnAccept" destination="MmM-ax-TMC" id="189-Kq-LSP"/>
+                <outlet property="btnHidden" destination="BcS-C3-ljX" id="TE9-0W-1aI"/>
+                <outlet property="heightViewContainer" destination="dYL-lL-JZM" id="3KZ-h6-Uhs"/>
+                <outlet property="viewContainer" destination="XL1-oj-FEg" id="bpA-1t-ZJr"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

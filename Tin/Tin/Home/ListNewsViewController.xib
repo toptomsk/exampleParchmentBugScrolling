@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListNewsViewController" customModule="Tin" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionArticle" destination="1rD-kO-qZf" id="JDZ-ft-bkw"/>
+                <outlet property="imgLoadError" destination="khZ-PU-3nn" id="qs0-Ds-tnU"/>
+                <outlet property="naviBar" destination="W34-QN-FOk" id="ZfV-nF-yQF"/>
+                <outlet property="naviBarHeight" destination="eUY-df-UQl" id="krN-4Q-bBs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewStatusBar" destination="xIF-JP-J24" id="bGI-3d-fhI"/>
+                <outlet property="viewUp" destination="fUL-hQ-ZIq" id="U72-pG-VqQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIF-JP-J24">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W34-QN-FOk" customClass="CustomNavigationBar" customModule="Tin" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="eUY-df-UQl"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="1rD-kO-qZf">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="2Iu-qN-VZL">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_message_load_fail" translatesAutoresizingMaskIntoConstraints="NO" id="khZ-PU-3nn">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fUL-hQ-ZIq">
+                    <rect key="frame" x="87" y="384" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_muiten_up" translatesAutoresizingMaskIntoConstraints="NO" id="HB9-fj-lKO">
+                            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07A-Kc-ei9">
+                            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="actionUp" destination="-1" eventType="touchUpInside" id="OEB-9G-ZoI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xIF-JP-J24" firstAttribute="bottom" secondItem="W34-QN-FOk" secondAttribute="bottom" id="6EH-Ka-l84"/>
+                <constraint firstItem="khZ-PU-3nn" firstAttribute="top" secondItem="xIF-JP-J24" secondAttribute="bottom" id="6eP-Of-BY2"/>
+                <constraint firstItem="xIF-JP-J24" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IwB-TQ-Fug"/>
+                <constraint firstItem="xIF-JP-J24" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="RKo-RI-xH0"/>
+                <constraint firstItem="khZ-PU-3nn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cy6-Rh-sov"/>
+                <constraint firstItem="khZ-PU-3nn" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="dwP-lV-d3h"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xIF-JP-J24" secondAttribute="trailing" id="fqk-gi-eNg"/>
+                <constraint firstItem="W34-QN-FOk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" placeholder="YES" id="hgi-kn-EDk"/>
+                <constraint firstItem="W34-QN-FOk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="nSi-Wk-sqE"/>
+                <constraint firstAttribute="bottom" secondItem="khZ-PU-3nn" secondAttribute="bottom" id="rXu-f3-8DI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="W34-QN-FOk" secondAttribute="trailing" id="sL8-4y-5R2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="80.357142857142847"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_message_load_fail" width="748" height="1132"/>
+        <image name="icon_muiten_up" width="72" height="72"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
